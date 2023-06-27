@@ -5,7 +5,7 @@ int start=0;
 int end= size-1;
 
 while(start <= end){
-   int middle = (start + end)/2;
+   int middle = start + (start-end)/2;
  if(arr[middle]==key){
     return middle;
  }
